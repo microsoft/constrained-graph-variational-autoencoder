@@ -76,7 +76,7 @@ python evaluate.py --dataset qm9|zinc|cep
 ```
 
 # Pretrained Models and Generated Molecules
-
+<!--
 We provide pretrained models and generated molecules for both settings. The following files are pretrained models
 
 ```
@@ -98,6 +98,9 @@ molecules/generated_smiles_zinc_setting2
 molecules/generated_smiles_cep_setting1
 molecules/generated_smiles_cep_setting2
 ```
+-->
+
+We will provide pretrained models and generated molecules soon.
 
 A program in folder `molecules` is provided to read and visualize the molecules
 
