@@ -6,7 +6,7 @@ This repository contains our implementation of [Constrained Graph Variational Au
 @article{liu2018constrained,
   title={Constrained Graph Variational Autoencoders for Molecule Design},
   author={Liu, Qi and Allamanis, Miltiadis and Brockschmidt, Marc and Gaunt, Alexander L.},
-  journal={arXiv preprint arXiv:1805.09076},
+  journal={The Thirty-second Conference on Neural Information Processing Systems},
   year={2018}
 }
 ```
@@ -23,18 +23,14 @@ To evaluate SAS scores, use `get_sascorer.sh` to download the SAS implementation
 
 # Data Extraction
 
-Three datasets (QM9, ZINC and CEPDB) are in use. QM9 and ZINC are downloaded using `to_graph_zinc.py` and `get_data.py`, respectively. For CEPDB, please refer to [CEPDB](http://cleanenergy.molecularspace.org/).
+Three datasets (QM9, ZINC and CEPDB) are in use. For downloading CEPDB, please refer to [CEPDB](http://cleanenergy.molecularspace.org/).
 
-To use ZINC data, first run 
-
-```
-python to_graph_zinc.py
-```
-
-For data preprocessing, use
+For downloading QM9 and ZINC, please go to `data` directory and run `get_qm9.py` and `get_zinc.py`, respectively.
 
 ```
-python get_data.py --dataset qm9|zinc|cep
+python get_qm9.py
+
+python get_zinc.py
 ```
 
 # Running CGVAE
