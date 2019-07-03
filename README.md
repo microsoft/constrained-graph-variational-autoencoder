@@ -96,7 +96,7 @@ molecules/generated_smiles_cep_setting2
 ```
 -->
 
-We will provide pretrained models and generated molecules soon.
+Generated molecules can be obtained upon request.
 
 A program in folder `molecules` is provided to read and visualize the molecules
 
